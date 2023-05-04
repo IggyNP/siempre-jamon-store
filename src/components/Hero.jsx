@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import PlanesBtn from "./PlanesBtn";
 
 const Hero = () => {
   return (
@@ -12,9 +13,7 @@ const Hero = () => {
       />
       <div className="flex flex-col items-center w-[45%]">
         <h1>No hay celebración sin Jamón</h1>
-        <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white px-3 py-2 border border-blue-500 hover:border-transparent rounded uppercase mt-6 md:w-[35%] md:text-md lg:text-lg">
-          Descubre los planes
-        </button>
+        <PlanesBtn />
       </div>
     </div>
   );
