@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import WhySection from "@/components/WhySection";
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <WhySection />
+      <Footer />
     </>
   );
 }
