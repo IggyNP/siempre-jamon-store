@@ -4,7 +4,7 @@ import PlanesBtn from "./PlanesBtn";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col w-full h-screen md:justify-center items-center md:items-stretch text-center py-40 px-7">
+    <div className="flex flex-col w-full h-screen md:justify-center items-center md:items-stretch text-center py-36 px-7">
       <Image
         src="/images/jamon-fondo.jpg"
         alt="fondo-jamon"
