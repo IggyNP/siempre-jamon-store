@@ -30,7 +30,7 @@ const faqData = [
       "Sí, puedes cambiar la dirección de entrega de tu suscripción mensual de Siempre Jamón. Simplemente inicia sesión en tu cuenta y actualiza la información de envío antes de la fecha de facturación para garantizar que tu jamón llegue a la dirección correcta.",
   },
   {
-    question: "¿Qué ocurre si no estoy en casa cuando se entregue mi pedido?",
+    question: "¿Qué pasa si no estoy en casa cuando se entregue mi pedido?",
     answer:
       "Si no estás en casa cuando se entregue tu suscripción mensual de jamón serrano, el servicio de mensajería intentará dejar el paquete en un lugar seguro, como en el buzón o en la entrada del domicilio, siempre y cuando sea posible y seguro hacerlo. Si no se puede dejar el paquete en un lugar seguro, el servicio de mensajería dejará una nota de aviso en tu puerta y te informará sobre cómo proceder para programar la entrega en un horario o día diferente o para recoger tu jamón serrano en la oficina de mensajería más cercana.",
   },
@@ -51,7 +51,7 @@ const Faq = () => {
       <h2 className="py-6 mb-6">Preguntas frecuentes</h2>
       {faqData.map((item, i) => (
         <div
-          className="key={i} flex flex-col w-full md:w-[60%] items-center shadow rounded border border-gray-400 cursor-pointer select-none"
+          className="flex flex-col w-full md:w-[60%] items-center shadow rounded border border-gray-400 cursor-pointer select-none"
           onClick={() => toggle(i)}
         >
           <div className="flex flex-row justify-between items-center w-full">
