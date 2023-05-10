@@ -47,7 +47,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="flex flex-col h-screen w-full items-center">
+    <div className="flex flex-col pb-36 w-full items-center">
       <h2 className="py-6 mb-6">Preguntas frecuentes</h2>
       {faqData.map((item, i) => (
         <div
