@@ -34,7 +34,7 @@ const Planes = () => {
             alt="background circle images"
           />
           <div class="bg-white cursor-pointer shadow rounded-lg mt-3 flex relative z-30 group">
-            <div className="opacity-0 group-hover:opacity-100 w-2.5 h-auto bg-[#DC2626] rounded-tl-md rounded-bl-md"></div>
+            <div className="opacity-0 group-hover:opacity-100 duration-100 w-2.5 h-auto bg-[#DC2626] rounded-tl-md rounded-bl-md"></div>
             <div className="w-full p-8">
               <div className="md:flex items-center justify-between">
                 <h2 className="text-2xl font-semibold leading-6 text-gray-800">
@@ -50,7 +50,7 @@ const Planes = () => {
             </div>
           </div>
           <div class="bg-white cursor-pointer shadow rounded-lg mt-3 flex relative z-30 group">
-            <div className="opacity-0 group-hover:opacity-100 w-2.5 h-auto bg-[#DC2626] rounded-tl-md rounded-bl-md"></div>
+            <div className="opacity-0 group-hover:opacity-100 duration-100 w-2.5 h-auto bg-[#DC2626] rounded-tl-md rounded-bl-md"></div>
             <div className="w-full p-8">
               <div className="md:flex items-center justify-between">
                 <h2 className="text-2xl font-semibold leading-6 text-gray-800">
@@ -66,7 +66,7 @@ const Planes = () => {
             </div>
           </div>
           <div class="bg-white cursor-pointer shadow rounded-lg mt-3 flex relative z-30 group">
-            <div className="opacity-0 group-hover:opacity-100 w-2.5 h-auto bg-[#DC2626] rounded-tl-md rounded-bl-md"></div>
+            <div className="opacity-0 group-hover:opacity-100 duration-100 w-2.5 h-auto bg-[#DC2626] rounded-tl-md rounded-bl-md"></div>
             <div className="w-full p-8">
               <div className="md:flex items-center justify-between">
                 <h2 className="text-2xl font-semibold leading-6 text-gray-800">
