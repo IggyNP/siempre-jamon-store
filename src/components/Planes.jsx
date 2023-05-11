@@ -33,21 +33,24 @@ const Planes = () => {
             className="absolute w-full -ml-12 mt-24"
             alt="background circle images"
           />
-          <div className="bg-white cursor-pointer shadow rounded-lg p-8 relative z-30">
-            <div className="md:flex items-center justify-between">
-              <h2 className="text-2xl font-semibold leading-6 text-gray-800">
-                El prudente
-              </h2>
-              <p className="text-2xl font-semibold mt-4 text-gray-800">
-                10€ / mes
+          <div class="bg-white cursor-pointer shadow rounded-lg mt-3 flex relative z-30 group">
+            <div className="opacity-0 group-hover:opacity-100 w-2.5 h-auto bg-[#DC2626] rounded-tl-md rounded-bl-md"></div>
+            <div className="w-full p-8">
+              <div className="md:flex items-center justify-between">
+                <h2 className="text-2xl font-semibold leading-6 text-gray-800">
+                  El prudente
+                </h2>
+                <p className="text-2xl font-semibold mt-4 text-gray-800">
+                  10€ / mes
+                </p>
+              </div>
+              <p className="md:w-80 mt-4 text-gray-600">
+                1 paquete de 150g. de paletilla ibérica todos los meses.
               </p>
             </div>
-            <p className="md:w-80 mt-4 text-gray-600">
-              1 paquete 150g. de paletilla ibérica todos los meses.
-            </p>
           </div>
-          <div class="bg-white cursor-pointer shadow rounded-lg mt-3 flex relative z-30">
-            <div className="w-2.5 h-auto bg-[#DC2626] rounded-tl-md rounded-bl-md"></div>
+          <div class="bg-white cursor-pointer shadow rounded-lg mt-3 flex relative z-30 group">
+            <div className="opacity-0 group-hover:opacity-100 w-2.5 h-auto bg-[#DC2626] rounded-tl-md rounded-bl-md"></div>
             <div className="w-full p-8">
               <div className="md:flex items-center justify-between">
                 <h2 className="text-2xl font-semibold leading-6 text-gray-800">
@@ -62,17 +65,18 @@ const Planes = () => {
               </p>
             </div>
           </div>
-          <div class="bg-white cursor-pointer shadow rounded-lg mt-3 flex relative">
+          <div class="bg-white cursor-pointer shadow rounded-lg mt-3 flex relative z-30 group">
+            <div className="opacity-0 group-hover:opacity-100 w-2.5 h-auto bg-[#DC2626] rounded-tl-md rounded-bl-md"></div>
             <div className="w-full p-8">
               <div className="md:flex items-center justify-between">
-                <h2 className="text-2xl font-semibold text-gray-800">
+                <h2 className="text-2xl font-semibold leading-6 text-gray-800">
                   El campeón
                 </h2>
-                <p className="text-2xl font-semibold mt-4 leading-6 text-gray-800">
+                <p className="text-2xl font-semibold mt-4 text-gray-800">
                   35€ / mes
                 </p>
               </div>
-              <p className="md:w-80 leading-6 mt-4 text-gray-600">
+              <p className="md:w-80 mt-4 text-gray-600">
                 4 paquetes de 150g. de paletilla ibérica todos los meses.
               </p>
             </div>
