@@ -13,7 +13,7 @@ const PlanTypeBtn = () => {
             defaultChecked
           />
           <label
-            for="jamón"
+            htmlFor="jamón"
             className="select-none z-10 leading-none cursor-pointer rounded-full py-4 px-6 peer-checked/jamón:cursor-default peer-checked/jamón:text-white transition-all duration-300 ease-in-out"
           >
             Jamón
@@ -25,7 +25,7 @@ const PlanTypeBtn = () => {
             className="hidden peer/paletilla"
           />
           <label
-            for="paletilla"
+            htmlFor="paletilla"
             className="select-none z-10 leading-none cursor-pointer rounded-full py-4 px-6 peer-checked/paletilla:cursor-default peer-checked/paletilla:text-white transition-all duration-300 ease-in-out"
           >
             Paletilla
