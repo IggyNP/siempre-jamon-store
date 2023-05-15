@@ -10,7 +10,7 @@ const PlanTypeBtn = () => {
             type="radio"
             name="switch"
             className="hidden peer/jamón"
-            checked
+            defaultChecked
           />
           <label
             for="jamón"
