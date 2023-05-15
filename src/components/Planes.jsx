@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import PlanTypeBtn from "./PlanTypeBtn";
 
 const Planes = () => {
   return (
@@ -13,19 +14,7 @@ const Planes = () => {
             Escoge entre jamón o paletilla y la cantidad de paquetes que quieres
             recibir al mes.
           </p>
-          <div className="flex flex-row items-center justify-center">
-            <button
-              onclick="toggleIt()"
-              className="bg-gray-100 shadow flex items-center mt-10 rounded-full"
-            >
-              <div className="bg-gray-100 leading-none text-gray-600 rounded-full py-4 px-6">
-                Jamón
-              </div>
-              <div className="bg-[#DC2626] hover:bg-[#B91C1C] duration-300 leading-none text-white rounded-full py-4 px-6">
-                Paletilla
-              </div>
-            </button>
-          </div>
+          <PlanTypeBtn />
         </div>
         <div className="xl:w-1/2 lg:w-7/12 relative w-full mt-12 md:px-8 px-4">
           <img
