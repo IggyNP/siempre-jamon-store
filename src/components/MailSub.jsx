@@ -2,11 +2,11 @@ import React from "react";
 
 const MailSub = () => {
   return (
-    <div className="flex flex-col justify-between items-center sm:px-6 px-4 bg-[#ffffff19] py-7">
+    <div className="flex flex-col items-center justify-between bg-[#ffffff19] px-4 py-7 sm:px-6">
       <h2 className="mb-4 text-center uppercase">
         ¡<span className="text-[#DC2626]">Únete</span> al club de disfrutones!
       </h2>
-      <h3 className="text-center mb-6">
+      <h3 className="mb-6 text-center">
         Suscríbete a nuestro newsletter para estar al tanto de las noticias más
         deliciosas.
       </h3>
@@ -15,15 +15,15 @@ const MailSub = () => {
           <input
             type="email"
             placeholder="siempre@disfruton.com"
-            className="text-gray-800
-           sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none"
+            className="mb-4
+           mr-1 w-full rounded px-2 py-2.5 text-gray-800 focus:outline-none sm:mr-5 sm:w-72 lg:mb-0"
             required
           />
           <button
             type="submit"
             value="submit"
-            className="bg-[#DC2626] hover:bg-[#B91C1C] duration-300 px-5 py-2.5
-           rounded-md text-white md:w-auto w-full uppercase"
+            className="w-full rounded-md bg-[#DC2626] px-5 py-2.5
+           uppercase text-white duration-300 hover:bg-[#B91C1C] md:w-auto"
           >
             Suscribirse
           </button>

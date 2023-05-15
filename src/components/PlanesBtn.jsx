@@ -4,7 +4,7 @@ import React from "react";
 const PlanesBtn = () => {
   return (
     <Link href="/planes">
-      <button className="bg-[#DC2626] hover:bg-[#B91C1C] duration-300 text-white font-bold px-3 py-2 border hover:border-transparent rounded uppercase mt-6 md:text-md lg:text-lg">
+      <button className="md:text-md mt-6 rounded border bg-[#DC2626] px-3 py-2 font-bold uppercase text-white duration-300 hover:border-transparent hover:bg-[#B91C1C] lg:text-lg">
         Descubre los planes
       </button>
     </Link>

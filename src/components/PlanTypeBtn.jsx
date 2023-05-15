@@ -3,18 +3,18 @@ import React from "react";
 const PlanTypeBtn = () => {
   return (
     <div>
-      <div className="flex justify-center mt-6 lg:mt-12">
+      <div className="mt-6 flex justify-center lg:mt-12">
         <div className="relative inline-flex rounded-full bg-white shadow-lg">
           <input
             id="jamón"
             type="radio"
             name="switch"
-            className="hidden peer/jamón"
+            className="peer/jamón hidden"
             defaultChecked
           />
           <label
             htmlFor="jamón"
-            className="select-none z-10 leading-none cursor-pointer rounded-full py-4 px-6 peer-checked/jamón:cursor-default peer-checked/jamón:text-white transition-all duration-300 ease-in-out"
+            className="z-10 cursor-pointer select-none rounded-full px-6 py-4 leading-none transition-all duration-300 ease-in-out peer-checked/jamón:cursor-default peer-checked/jamón:text-white"
           >
             Jamón
           </label>
@@ -22,15 +22,15 @@ const PlanTypeBtn = () => {
             id="paletilla"
             type="radio"
             name="switch"
-            className="hidden peer/paletilla"
+            className="peer/paletilla hidden"
           />
           <label
             htmlFor="paletilla"
-            className="select-none z-10 leading-none cursor-pointer rounded-full py-4 px-6 peer-checked/paletilla:cursor-default peer-checked/paletilla:text-white transition-all duration-300 ease-in-out"
+            className="z-10 cursor-pointer select-none rounded-full px-6 py-4 leading-none transition-all duration-300 ease-in-out peer-checked/paletilla:cursor-default peer-checked/paletilla:text-white"
           >
             Paletilla
           </label>
-          <div className="absolute inset-y-0 left-0 z-0 w-1/2 rounded-full bg-[#DC2626] transform peer-checked/paletilla:translate-x-full transition-all duration-300 ease-in-out"></div>
+          <div className="absolute inset-y-0 left-0 z-0 w-1/2 transform rounded-full bg-[#DC2626] transition-all duration-300 ease-in-out peer-checked/paletilla:translate-x-full"></div>
         </div>
       </div>
     </div>

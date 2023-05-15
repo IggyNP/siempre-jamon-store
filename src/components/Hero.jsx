@@ -4,14 +4,14 @@ import PlanesBtn from "./PlanesBtn";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col w-full h-screen md:justify-center items-center md:items-stretch text-center py-36 px-7">
+    <div className="flex h-screen w-full flex-col items-center px-7 py-36 text-center md:items-stretch md:justify-center">
       <Image
         src="/images/jamon-fondo.jpg"
         alt="fondo-jamon"
         fill
         style={{ objectFit: "cover", zIndex: -1 }}
       />
-      <div className="flex flex-col items-center w-[45%]">
+      <div className="flex w-[45%] flex-col items-center">
         <h1>No hay celebración sin Jamón</h1>
         <PlanesBtn />
       </div>

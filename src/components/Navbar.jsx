@@ -11,8 +11,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full bg-white shadow-xl z-[100] fixed h-20">
-      <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
+    <div className="fixed z-[100] h-20 w-full bg-white shadow-xl">
+      <div className="flex h-full w-full items-center justify-between px-4 2xl:px-16">
         <Link href="/">
           <Image src="/images/logo.png" alt="/" width="70" height="25" />
         </Link>
@@ -37,28 +37,28 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden px-5 cursor-pointer">
+          <div onClick={handleNav} className="cursor-pointer px-5 md:hidden">
             <AiOutlineMenu size={25} />
           </div>
         </div>
       </div>
       <div
         className={
-          nav ? "md:hidden fixed right-0 top-0 w-full h-screen bg-black/30" : ""
+          nav ? "fixed right-0 top-0 h-screen w-full bg-black/30 md:hidden" : ""
         }
       >
         <div
           className={
             nav
-              ? "fixed right-0 top-0 h-screen w-[65%] sm:w-[60%] md:w-[45%] bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed right-[-100%] top-0 p-10 ease-in duration-500"
+              ? "fixed right-0 top-0 h-screen w-[65%] bg-[#ecf0f3] p-10 duration-500 ease-in sm:w-[60%] md:w-[45%]"
+              : "fixed right-[-100%] top-0 p-10 duration-500 ease-in"
           }
         >
           <div>
             <div className="flex w-full justify-end">
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 cursor-pointer"
+                className="cursor-pointer rounded-full shadow-lg shadow-gray-400"
               >
                 <AiOutlineClose size={25} />
               </div>
@@ -66,22 +66,22 @@ const Navbar = () => {
             <div className="mt-6">
               <ul>
                 <Link href="/">
-                  <li className="py-6 text-center text-md uppercase border-b-2">
+                  <li className="text-md border-b-2 py-6 text-center uppercase">
                     Inicio
                   </li>
                 </Link>
                 <Link href="/info">
-                  <li className="py-6 text-center text-md uppercase border-b-2">
+                  <li className="text-md border-b-2 py-6 text-center uppercase">
                     Info
                   </li>
                 </Link>
                 <Link href="/planes">
-                  <li className="py-6 text-center text-md uppercase border-b-2">
+                  <li className="text-md border-b-2 py-6 text-center uppercase">
                     Planes
                   </li>
                 </Link>
                 <Link href="/contacto">
-                  <li className="py-6 text-center text-md uppercase border-b-2">
+                  <li className="text-md border-b-2 py-6 text-center uppercase">
                     Contacto
                   </li>
                 </Link>

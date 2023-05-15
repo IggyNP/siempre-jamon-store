@@ -8,7 +8,7 @@ const Footer = ({ showMailSub = true }) => {
       {showMailSub && <MailSub />}
       <div
         className="flex flex-col justify-center gap-10
-      text-center pt-3 text-gray-400 text-sm pb-8"
+      pb-8 pt-3 text-center text-sm text-gray-400"
       >
         <p>
           Copyright © {currentYear} Siempre Jamón | Developed by{" "}

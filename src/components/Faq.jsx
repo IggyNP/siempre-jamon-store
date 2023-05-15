@@ -47,18 +47,18 @@ const Faq = () => {
   };
 
   return (
-    <div className="flex flex-col pb-36 w-full items-center">
-      <h2 className="py-6 mb-6">Preguntas frecuentes</h2>
+    <div className="flex w-full flex-col items-center pb-36">
+      <h2 className="mb-6 py-6">Preguntas frecuentes</h2>
       {faqData.map((item, i) => (
         <div
-          className="flex flex-col w-full md:w-[60%] items-center shadow rounded border border-gray-400 cursor-pointer select-none"
+          className="flex w-full cursor-pointer select-none flex-col items-center rounded border border-gray-400 shadow md:w-[60%]"
           onClick={() => toggle(i)}
         >
-          <div className="flex flex-row justify-between items-center w-full">
+          <div className="flex w-full flex-row items-center justify-between">
             <h3 className="p-4">{item.question}</h3>
             <button
               aria-label="question-expander"
-              className="text-xl p-4 focus:outline-none"
+              className="p-4 text-xl focus:outline-none"
               onClick={() => toggle(i)}
             >
               {expand === i ? (
