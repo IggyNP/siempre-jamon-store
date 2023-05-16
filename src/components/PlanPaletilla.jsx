@@ -13,7 +13,7 @@ const PlanPaletilla = () => {
         <div className="w-full p-8">
           <div className="items-center justify-between md:flex">
             <h2 className="text-2xl font-semibold leading-6 text-gray-800">
-              El cauto
+              El Cauto
             </h2>
             <p className="mt-4 text-2xl font-semibold text-gray-800">
               10€ / mes
@@ -29,7 +29,7 @@ const PlanPaletilla = () => {
         <div className="w-full p-8">
           <div className="items-center justify-between md:flex">
             <h2 className="text-2xl font-semibold leading-6 text-gray-800">
-              El templado
+              El Templado
             </h2>
             <p className="mt-4 text-2xl font-semibold text-gray-800">
               18€ / mes
@@ -45,7 +45,7 @@ const PlanPaletilla = () => {
         <div className="w-full p-8">
           <div className="items-center justify-between md:flex">
             <h2 className="text-2xl font-semibold leading-6 text-gray-800">
-              El magnífico
+              El Magnífico
             </h2>
             <p className="mt-4 text-2xl font-semibold text-gray-800">
               35€ / mes

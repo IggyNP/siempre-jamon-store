@@ -13,7 +13,7 @@ const PlanJamon = () => {
         <div className="w-full p-8">
           <div className="items-center justify-between md:flex">
             <h2 className="text-2xl font-semibold leading-6 text-gray-800">
-              El prudente
+              El Prudente
             </h2>
             <p className="mt-4 text-2xl font-semibold text-gray-800">
               12€ / mes
@@ -29,7 +29,7 @@ const PlanJamon = () => {
         <div className="w-full p-8">
           <div className="items-center justify-between md:flex">
             <h2 className="text-2xl font-semibold leading-6 text-gray-800">
-              El moderado
+              El Moderado
             </h2>
             <p className="mt-4 text-2xl font-semibold text-gray-800">
               22€ / mes
@@ -45,7 +45,7 @@ const PlanJamon = () => {
         <div className="w-full p-8">
           <div className="items-center justify-between md:flex">
             <h2 className="text-2xl font-semibold leading-6 text-gray-800">
-              El campeón
+              El Campeón
             </h2>
             <p className="mt-4 text-2xl font-semibold text-gray-800">
               40€ / mes

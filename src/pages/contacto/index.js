@@ -1,17 +1,17 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
-import Planes from "@/components/Planes";
 import Footer from "@/components/Footer";
 
-export default function planes() {
+const contacto = () => {
   return (
     <>
       <Head>
-        <title>Siempre Jamón | Planes</title>
+        <title>Siempre Jamón | Contacto</title>
       </Head>
       <Navbar />
-      <Planes />
       <Footer />
     </>
   );
-}
+};
+
+export default contacto;

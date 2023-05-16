@@ -1,9 +1,8 @@
+import Head from "next/head";
+import Navbar from "@/components/Navbar";
+import HowSection from "@/components/HowSection";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
-import HowSection from "@/components/HowSection";
-import Navbar from "@/components/Navbar";
-import Head from "next/head";
-import React from "react";
 
 const info = () => {
   return (
