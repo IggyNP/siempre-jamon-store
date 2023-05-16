@@ -9,7 +9,6 @@ const contacto = () => {
         <title>Siempre Jamón | Contacto</title>
       </Head>
       <Navbar />
-      <Footer />
     </>
   );
 };

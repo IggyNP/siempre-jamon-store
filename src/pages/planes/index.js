@@ -11,7 +11,7 @@ export default function planes() {
       </Head>
       <Navbar />
       <Planes />
-      <Footer />
+      <Footer showMailSub={false} />
     </>
   );
 }
