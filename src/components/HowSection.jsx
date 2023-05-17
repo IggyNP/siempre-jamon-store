@@ -40,7 +40,7 @@ const HowSection = () => {
             <p className="mt-4 text-lg font-bold">
               4. Espera con ganas el mes que viene
             </p>
-            <p>Para recibir más jamón sin preocuparte por nada!</p>
+            <p>Para recibir más jamón ¡Sin preocuparte por nada!</p>
           </div>
           <Image src="/images/waiting.jpg" width="550" height="550" />
         </div>
