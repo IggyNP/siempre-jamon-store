@@ -17,7 +17,7 @@ const Contact = () => {
     <div className="flex h-full w-full flex-col items-center justify-center py-36 text-center">
       <h1>¿Tienes alguna pregunta?</h1>
       <p className="mt-6">
-        ¡No tengas miedo! Alguien con hábiles pezuñas no tardará en responderla.
+        ¡No tengas miedo! Alguien con hábiles pezuñas no tardará en responderte.
       </p>
       <div className="w-[75%] pt-20 lg:w-1/2">
         <form onSubmit={handleSubmit}>
