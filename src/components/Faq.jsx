@@ -68,7 +68,11 @@ const Faq = () => {
               )}
             </button>
           </div>
-          <div className={expand === i ? "display" : "hidden"}>
+          <div
+            className={`overflow-hidden transition-[max-height] duration-500 ease-in ${
+              expand === i ? "max-h-60" : "max-h-0"
+            }`}
+          >
             <p className="px-4 pb-4">{item.answer}</p>
           </div>
         </div>
