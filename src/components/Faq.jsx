@@ -62,14 +62,22 @@ const Faq = () => {
               onClick={() => toggle(i)}
             >
               {expand === i ? (
-                <FontAwesomeIcon icon={faChevronUp} />
+                <FontAwesomeIcon
+                  icon={faChevronDown}
+                  className="origin-center rotate-180 duration-300
+                    ease-in-out"
+                />
               ) : (
-                <FontAwesomeIcon icon={faChevronDown} />
+                <FontAwesomeIcon
+                  icon={faChevronDown}
+                  className=" transition-transform duration-300
+                    ease-in-out"
+                />
               )}
             </button>
           </div>
           <div
-            className={`overflow-hidden transition-[max-height] duration-500 ease-in ${
+            className={`overflow-hidden transition-[max-height] duration-300 ease-in ${
               expand === i ? "max-h-60" : "max-h-0"
             }`}
           >
