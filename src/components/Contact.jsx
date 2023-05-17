@@ -64,7 +64,7 @@ const Contact = () => {
             type="submit"
             className="mt-4 rounded bg-[#DC2626] px-4 py-2 text-white hover:bg-[#B91C1C] lg:px-6 lg:py-3"
           >
-            Enviar
+            ENVIAR
           </button>
         </form>
       </div>
