@@ -19,7 +19,7 @@ const Contact = () => {
       <p className="mt-6">
         ¡No tengas miedo! Alguien con hábiles pezuñas no tardará en responderte.
       </p>
-      <div className="w-[75%] pt-20 lg:w-1/2">
+      <div className="w-[75%] pt-20 lg:w-1/2 lg:pt-16">
         <form onSubmit={handleSubmit}>
           <div className="mb-6 w-full text-left">
             <label htmlFor="name" className="mb-2 block text-lg">
